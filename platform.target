@@ -4,6 +4,6 @@
 <target name="Base RCP (Binary Only)">
 <locations>
 <location id="org.eclipse.rcp" path="${eclipse_home}" type="Feature"/>
-<location path="target-platform-linux-x64/bundles" type="Directory"/>
+<location path="${project_loc}/bundles" type="Directory"/>
 </locations>
 </target>
