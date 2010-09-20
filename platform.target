@@ -16,5 +16,14 @@
 <unit id="org.eclipse.sdk.ide" version="3.6.0.I20100608-0911"/>
 <repository location="http://download.eclipse.org/eclipse/updates/3.6"/>
 </location>
+<location includeAllPlatforms="false" includeMode="planner" type="InstallableUnit">
+<unit id="org.eclipse.draw2d.feature.group" version="3.6.0.v20100519-2050-45-7w3121163602336"/>
+<unit id="org.eclipse.draw2d.sdk.feature.group" version="3.6.0.v20100519-2050-7A7G-8yE4F-8G9O4F8L54AB88x42"/>
+<unit id="org.eclipse.gef.feature.group" version="3.6.0.v20100519-2050-777B-81A2Bz-69793A8B83447"/>
+<unit id="org.eclipse.gef.sdk.feature.group" version="3.6.0.v20100519-2050-7G7R-A5WNc7QL_fXBGjRZPUUiKPJ"/>
+<unit id="org.eclipse.zest.feature.group" version="1.2.0.v20100519-2050-678-8yE4F-8HAH4DFEF3447"/>
+<unit id="org.eclipse.zest.sdk.feature.group" version="1.2.0.v20100519-2050-679-8COKLDAKOXIEU_VWSfZdM9XR"/>
+<repository location="http://download.eclipse.org/tools/gef/updates/releases/"/>
+</location>
 </locations>
 </target>
