@@ -7,7 +7,6 @@
 <unit id="org.eclipse.rcp.sdk.id" version="3.6.0.I20100608-0911"/>
 <repository location="http://download.eclipse.org/eclipse/updates/3.6"/>
 </location>
-<location path="${project_loc}/bundles" type="Directory"/>
 <location includeAllPlatforms="false" includeMode="planner" type="InstallableUnit">
 <unit id="org.eclipse.pde.source.feature.group" version="3.6.0.v20100525-7b7mFKtFEx2XmfZ4_B7NUJA"/>
 <repository location="http://download.eclipse.org/eclipse/updates/3.6"/>
@@ -16,13 +15,20 @@
 <unit id="org.eclipse.sdk.ide" version="3.6.0.I20100608-0911"/>
 <repository location="http://download.eclipse.org/eclipse/updates/3.6"/>
 </location>
+<location path="${project_loc}/bundles" type="Directory"/>
 <location includeAllPlatforms="false" includeMode="planner" type="InstallableUnit">
-<unit id="org.eclipse.draw2d.feature.group" version="3.6.0.v20100519-2050-45-7w3121163602336"/>
-<unit id="org.eclipse.draw2d.sdk.feature.group" version="3.6.0.v20100519-2050-7A7G-8yE4F-8G9O4F8L54AB88x42"/>
-<unit id="org.eclipse.gef.feature.group" version="3.6.0.v20100519-2050-777B-81A2Bz-69793A8B83447"/>
-<unit id="org.eclipse.gef.sdk.feature.group" version="3.6.0.v20100519-2050-7G7R-A5WNc7QL_fXBGjRZPUUiKPJ"/>
-<unit id="org.eclipse.zest.feature.group" version="1.2.0.v20100519-2050-678-8yE4F-8HAH4DFEF3447"/>
-<unit id="org.eclipse.zest.sdk.feature.group" version="1.2.0.v20100519-2050-679-8COKLDAKOXIEU_VWSfZdM9XR"/>
+<unit id="org.eclipse.draw2d.feature.group" version="3.6.1.v20100908-1100-4507w31211A2403131"/>
+<unit id="org.eclipse.draw2d.sdk.feature.group" version="3.6.1.v20100908-1100-7A7G18yE5F-8K8N4I8E558B48x42"/>
+<unit id="org.eclipse.draw2d.source.feature.group" version="3.6.1.v20100908-1100-4507w31211A2403131"/>
+<unit id="org.eclipse.gef.feature.group" version="3.6.1.v20100908-1100-777B181A3Bz-6B663E7974242"/>
+<unit id="org.eclipse.gef.all.feature.group" version="3.6.1.v20100908-1100-787D17PhSyGcDBx8Zy_MhtyNUO45"/>
+<unit id="org.eclipse.gef.examples.feature.group" version="3.6.1.v20100908-1100-7G7T1BgJ9E99iCg4FPEO"/>
+<unit id="org.eclipse.gef.examples.source.feature.group" version="3.6.1.v20100908-1100"/>
+<unit id="org.eclipse.gef.sdk.feature.group" version="3.6.1.v20100908-1100-7G7R2A5WNcBQPZgXAHiSXMXYaKPI"/>
+<unit id="org.eclipse.gef.source.feature.group" version="3.6.1.v20100908-1100-777B181A3Bz-6B663E7974242"/>
+<unit id="org.eclipse.zest.feature.group" version="1.2.0.v20100519-2050-67808yE5F-8HAH4HECF4242"/>
+<unit id="org.eclipse.zest.sdk.feature.group" version="1.2.0.v20100519-2050-67908COKMFAKPYIEUdUVWhXYN8VN"/>
+<unit id="org.eclipse.zest.source.feature.group" version="1.2.0.v20100519-2050-67808yE5F-8HAH4HECF4242"/>
 <repository location="http://download.eclipse.org/tools/gef/updates/releases/"/>
 </location>
 </locations>
