@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.6"?>
 
-<target name="Hummingbird-platform" sequenceNumber="13">
+<target name="Hummingbird-platform" sequenceNumber="15">
 <locations>
 <location path="${project_loc}/bundles" type="Directory"/>
 <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
@@ -14,5 +14,7 @@
 <repository location="http://download.eclipse.org/eclipse/updates/3.6"/>
 </location>
 <location path="${project_loc}/hbird-bundles" type="Directory"/>
+<location path="${project_loc}/camel" type="Directory"/>
+<location path="${project_loc}/activemq" type="Directory"/>
 </locations>
 </target>
