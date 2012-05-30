@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.6"?>
 
-<target name="Hummingbird-platform" sequenceNumber="15">
+<target name="Hummingbird-platform" sequenceNumber="18">
 <locations>
+<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.platform.sdk" version="3.6.2.M20110210-1200"/>
+<repository location="http://download.eclipse.org/eclipse/updates/3.6"/>
+</location>
+<location path="${project_loc}/maven-generated" type="Directory"/>
+<location path="${project_loc}/hbird-bundles" type="Directory"/>
 <location path="${project_loc}/bundles" type="Directory"/>
 <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="com.google.guava.sdk.feature.feature.group" version="10.0.0"/>
 <unit id="com.google.guava.runtime.feature.feature.group" version="10.0.0"/>
 <repository location="http://guava-osgi.googlecode.com/svn/trunk/repository/"/>
 </location>
-<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.platform.sdk" version="3.6.2.M20110210-1200"/>
-<repository location="http://download.eclipse.org/eclipse/updates/3.6"/>
-</location>
-<location path="${project_loc}/hbird-bundles" type="Directory"/>
-<location path="${project_loc}/camel" type="Directory"/>
-<location path="${project_loc}/activemq" type="Directory"/>
 </locations>
 </target>
