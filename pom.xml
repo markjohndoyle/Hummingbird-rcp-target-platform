@@ -18,8 +18,11 @@
 			IMPORTANT: PLease modify to the absolute path of the root directory
 			of your Target pLatform
 		-->
-		<taget-platform.root>
+		<!--<taget-platform.root>
 			C:\Users\mark\workspace\Hummingbird-rcp-target-platform\maven-generated
+		</taget-platform.root>-->
+		<taget-platform.root>
+			maven-generated
 		</taget-platform.root>
 		<!-- Spring version -->
 		<spring.maven.artifact.version>3.1.1.RELEASE</spring.maven.artifact.version>
