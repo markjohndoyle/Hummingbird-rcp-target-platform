@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.6"?>
 
-<target name="Hummingbird-platform" sequenceNumber="19">
+<target name="Hummingbird-platform" sequenceNumber="20">
 <locations>
-<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.platform.sdk" version="3.6.2.M20110210-1200"/>
-<repository location="http://download.eclipse.org/eclipse/updates/3.6"/>
-</location>
 <location path="${project_loc}/maven-generated" type="Directory"/>
 <location path="${project_loc}/hbird-bundles" type="Directory"/>
 <location path="${project_loc}/bundles" type="Directory"/>
@@ -16,8 +12,12 @@
 <repository location="http://guava-osgi.googlecode.com/svn/trunk/repository/"/>
 </location>
 <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.nebula.feature.feature.group" version="1.0.0.201206021637"/>
+<unit id="org.eclipse.nebula.feature.feature.group" version="1.0.0.201206041031"/>
 <repository location="http://download.eclipse.org/technology/nebula/snapshot"/>
+</location>
+<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.platform.ide" version="3.6.2.M20110210-1200"/>
+<repository location="http://download.eclipse.org/eclipse/updates/3.6"/>
 </location>
 </locations>
 </target>
